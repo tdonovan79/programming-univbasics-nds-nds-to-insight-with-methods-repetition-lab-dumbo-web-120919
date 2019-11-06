@@ -25,7 +25,14 @@ def gross_for_director(d)
 end
 
 def list_of_directors(source)
-  # Write this implementation
+  #stores director names
+  name_array = []
+  #director iterator
+  director_index = 0
+  #iterate over directors
+  while director_index < source.length do
+    
+  end
 end
 
 def total_gross(source)
