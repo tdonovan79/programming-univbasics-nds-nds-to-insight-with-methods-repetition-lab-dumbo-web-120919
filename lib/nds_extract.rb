@@ -32,6 +32,7 @@ def list_of_directors(source)
   #iterate over directors
   while director_index < source.length do
     name_array << source[director_index][:name]
+    director_index += 1
   end
   #return array of name
   return name_array
@@ -44,6 +45,7 @@ def total_gross(source)
   gross_array = directors_totals(source)
   while index < source.length do
     grosses[names_array[index]] = gross_array[index]
+    index +=1
   end
   return grosses
 end
